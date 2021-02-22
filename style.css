@@ -1,0 +1,69 @@
+body{
+    background-color: #bdc3c7;
+    background-image: url("./assets/background.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px -10px 9px 0px rgba(50, 50, 50, 0.59);
+    -moz-box-shadow:    -1px -10px 9px 0px rgba(50, 50, 50, 0.59);
+    box-shadow:         -1px -10px 9px 0px rgba(50, 50, 50, 0.59);
+    transition: 0.3s ease-in;
+    
+}
+.card #quoteGeneratorText {
+
+    font-size: 32px;
+}
+
+.card #quoteGeneratorText {
+
+    font-size: 32px;
+}
+.card #btn{
+    width: 180px;
+    height: 50px;
+    background-color: #e74c3c;
+    line-height: 50px;
+    text-align: center;
+}
+.card #btn:hover{
+    background-color: #c0392b;
+    transition: .3s ease-in-out;
+
+}
+.card #author{
+    position: fixed;
+    display: block;
+    width: 300px;
+    margin-top: 230px;
+}
+.card #tag{
+    display: block;
+    width: 300px;
+    margin-top: 250px;
+    position: fixed;
+}
+.card #btn:active{
+    background-color:#e67e22;
+    transition: .2s ease-in-out;
+
+}
+
